@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.box{
+  text-align: center;
+  height: 500px;
+  font-size: 50px;
+  padding: 50px;
+  /* background-image: url('1\ \(2\).gif'), url('1\ \(3\).gif') ; */
+  /* background-image: url('' )url('tree.jpg'); */
+  /* background-image: url('1\ \(1\).gif' */
+  background-image: url('player.png'), url('tree.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom ,center  bottom;
+  background-size: initial;
+  background-size:500px , cover;
+  background-blend-mode:darken;
+  /* background: url(1\ \(1\).gif) no-repeat center;
+  background-size: cover;
+   */
+
+}
