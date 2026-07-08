@@ -1,25 +1,30 @@
-.box{
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 200px;
-    padding: 50px;
+table {
+    width: 500px;
+    border-collapse: collapse;
+    /* height: 500px; */
 }
-.box1{
-    background-color: hotpink;
-    transition: 5s;
+table tr:hover{
+    background-color: #b6b5b5;
 }
-.box1:hover{
-    box-shadow:10px 20px 20px #ccc7c7;
-    border-radius: 20px;
-    transition: 5s;
-    transform: rotate(200deg);
-    cursor: move;
-    color: rgb(17, 0, 255);
+table tr{
+    border-bottom: 1px solid black;
+}
+table tr:nth-child(odd){
+    background-color: pink;
+}
+table tr th{
+    padding: 5px;
+    background: #b6b5b5;
+
 }
 
-.box2{
-    background-color: greenyellow;
+table tr td{
+    padding: 5px;
+    text-align: center;
+    vertical-align:middle ;
+
+}
+table,tr,th,td{
+    /* border: 2px solid black; */
+    
 }
