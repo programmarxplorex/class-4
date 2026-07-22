@@ -1,30 +1,39 @@
-table {
-    width: 500px;
-    border-collapse: collapse;
-    /* height: 500px; */
-}
-table tr:hover{
-    background-color: #b6b5b5;
-}
-table tr{
-    border-bottom: 1px solid black;
-}
-table tr:nth-child(odd){
-    background-color: pink;
-}
-table tr th{
-    padding: 5px;
-    background: #b6b5b5;
+body{
+    margin: 0;
+    padding: 0;
+
 
 }
-
-table tr td{
-    padding: 5px;
-    text-align: center;
-    vertical-align:middle ;
-
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('hero.png');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
 }
-table,tr,th,td{
-    /* border: 2px solid black; */
-    
+.hero .content{
+    width: 1000px;
+    padding: 60px;
+}
+.hero .content .title{
+    font-size: 40px;
+    color: white;
+}
+.hero .content .title h1{
+    margin-top: 0;
+}
+.hero .content  .subtitle {
+   font-size: 30px;
+   color: white;
+   margin-bottom: 100px;
+}
+.hero .content  .button{
+    color: black;
+    text-decoration: none;
+    background-color:#ebc6b4 ;
+    padding:20px 40px ;
+    font-size: 28px;
+    border-radius: 40px;
+    font-weight: bold;
 }
